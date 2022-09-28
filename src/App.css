@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Rubik:wght@300;400;500;700;900&family=Space+Grotesk:wght@300;400;500;600;700&family=Ubuntu:wght@400;700&display=swap');
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/********* NavBar ***********/
+.navigation-bar {
+  background: #007CC2;
+}
+.login-btn {
+  color: #007CC2;
+  background-color: #fff;
+  box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.14);
+  border-radius: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.primary-nav span {
+  font-size: 1rem;
+  cursor: pointer;
+}
+.primary-nav span:hover {
+  transform: translateY(-5px);
+}
+.primary-nav .active {
+  border-bottom: 3px solid white;
+}
+.mobile-popup {
+  position: absolute;
+  background-color: #252540;
+  z-index: 10;
+  height: 100vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  opacity: 99%;
+}
+.mobile-popup .close-btn {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  right: 1.5rem;
+  top: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*** Banner **/
+.banner {
+  background-color: #007CC2;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.welcome-text {
+  color: #fff;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.welcome-text h1 {
+  line-height: 78px;
+  font-size: 52px;
 }
