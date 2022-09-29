@@ -57,3 +57,67 @@ body {
   line-height: 78px;
   font-size: 52px;
 }
+.object {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.flask {
+  position: absolute;
+  left: 350px;
+  bottom: 80px;
+}
+.molecules {
+  position: absolute;
+  right: 350px;
+  bottom: 80px;
+}
+.atom {
+  position: absolute;
+  left: 250px;
+  top: 100px;
+}
+.bulb {
+  position: absolute;
+  right: 250px;
+  top: 100px;
+}
+.log-small {
+  right: 180px;
+  top: 45px;
+}
+.log-medium {
+  left: 150px;
+  top: 150px;
+}
+.log-big {
+  right: 90px;
+  bottom: 30px;
+}
+.dot-design-1 {
+  right: 10px;
+  top: 10px;
+}
+.dot-design-2 {
+  left: 10px;
+  bottom: 10px;
+}
+.dot {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+/***** Science  *****/
+.science-tag {
+  background-color: #007CC2;
+  opacity: 35%;
+  border-radius: 4px;
+}
+.science-card {
+  box-shadow: 7px 9px 30px rgba(101, 101, 101, 0.25);
+  width: 26%;
+}
