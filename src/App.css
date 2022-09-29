@@ -4,6 +4,9 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
+.final {
+  overflow: scroll;
+}
 
 /********* NavBar ***********/
 .navigation-bar {
@@ -120,4 +123,20 @@ body {
 .science-card {
   box-shadow: 7px 9px 30px rgba(101, 101, 101, 0.25);
   width: 26%;
+}
+
+/**** Footer  ****/
+.details {
+  background-color: #002C45;
+  color: white;
+}
+.copyright {
+  background-color: #0B4668;
+}
+.scroll-up {
+  background-color: #007CC2;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
 }
